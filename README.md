@@ -1,9 +1,9 @@
-# Cogeneration System Simulation & Energy Modeling
+## Scope and Notes
 
-Initial MATLAB script (ornek10revize.m) for a cogeneration cycle and a single-zone EnergyPlus building energy model (proje 1.idf).
+This project was developed using EnergyPlus, based on practical knowledge gained through an online technical training course.
 
-## Scope & Notes
-- *MATLAB (ornek10revize.m):* Thermodynamic state-point calculations, power/heat balance, and operating cost/benefit analysis for a cogeneration system.
-- *EnergyPlus (proje 1.idf):* Single-zone building energy simulation setup including infiltration, schedules, and thermal load modeling.
-- *Dependencies:* The MATLAB script calls refpropm for fluid properties (requires a local REFPROP setup); the .idf file runs on EnergyPlus 26.1.
-- *Status:* Work in progress (undergraduate thesis and coursework models).
+The original building energy simulation model was modified by adjusting climate conditions and selected numerical parameters.
+
+The purpose of this study is to explore how changes in simulation inputs influence building energy performance, particularly heating and cooling demands.
+
+The project serves as an introductory study in building energy simulation and provides a foundation for further independent analysis.
